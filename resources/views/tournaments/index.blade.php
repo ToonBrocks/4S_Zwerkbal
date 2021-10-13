@@ -23,7 +23,7 @@
     @foreach($tournaments as $tournament)
     <tr>
         <td>{{ $tournament->name }}</td>
-        <td>{{ $tournament->date }}</td>
+        <td>{{date('d-m-Y', strtotime($tournament->date)) }}</td>
         <td>{{ $tournament->start_time }}</td>
         <td><a href="{{ route('tournaments.edit', $tournament->id) }}">Aanpassen</a></td>
     </tr>

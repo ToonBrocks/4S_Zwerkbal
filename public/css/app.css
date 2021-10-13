@@ -82,6 +82,12 @@ label{
     display: inline-block;
 }
 
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
 .form-control{
-    min-width: 200px;
+    max-width: 200px;
 }
