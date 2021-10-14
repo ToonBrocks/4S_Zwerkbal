@@ -91,3 +91,26 @@ label{
 .form-control{
     max-width: 200px;
 }
+
+.info-image{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    border: 3px solid #EEBA30;
+    border-radius: 10px;
+    width: 60%;
+    margin: 5px;
+}
+
+.image{
+    border: 3px solid #EEBA30;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 60px;
+}
+
+.image img{
+    width: 400px;
+}
